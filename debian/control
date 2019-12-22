@@ -1,0 +1,19 @@
+Source: qjoypad
+Section: utils
+Priority: extra
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Uploaders: Jordan Metzmeier <jmetzmeier01@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), qt4-qmake, libxtst-dev, libqt4-dev (>= 4.2), pkg-config, libx11-dev, dpkg-dev (>= 1.16.1.1)
+Standards-Version: 3.9.5
+Homepage: http://qjoypad.sourceforge.net/
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-games/qjoypad.git
+Vcs-Git: http://anonscm.debian.org/git/pkg-games/qjoypad.git
+
+Package: qjoypad
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Program for mapping gamepad/joystick events to mouse/keyboard event
+ QJoyPad takes input from a gamepad or joystick and translates it into
+ key strokes or mouse actions, letting you control any X-Windows program
+ with your game controller. This lets you play all those games that for
+ some reason don't have joystick support with your joystick.

@@ -1,0 +1,26 @@
+qjoypad (4.1.0-2.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Use proper RAII to fix crash (Closes: #853801), thanks Frédéric Brière.
+
+ -- Adam Borowski <kilobyte@angband.pl>  Mon, 15 May 2017 22:16:08 +0200
+
+qjoypad (4.1.0-2) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Jordan Metzmeier ]
+  * Fix FTBFS using clang
+    (Closes: #752125, thanks to Alexander Ovchinnikov)
+
+  [ Stephen Kitt ]
+  * Define INSTALL_ROOT so that the installation can complete correctly
+    (Closes: #840346)
+
+ -- Stephen Kitt <skitt@debian.org>  Tue, 18 Oct 2016 08:50:02 +0200
+
+qjoypad (4.1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #564503)
+
+ -- Jordan Metzmeier <jmetzmeier01@gmail.com>  Wed, 26 Feb 2014 00:00:31 -0600
