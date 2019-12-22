@@ -1,17 +1,4 @@
 #!/usr/bin/make -f
-# -*- makefile -*-
-
-export DH_VERBOSE=1
-export DEB_BUILD_MAINT_OPTIONS = hardening=+all
-export QMAKE_CFLAGS_RELEASE="$(shell dpkg-buildflags --get CFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)"
-export QMAKE_CFLAGS_DEBUG="$(shell dpkg-buildflags --get CFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)"
-export QMAKE_CXXFLAGS_RELEASE="$(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)"
-export QMAKE_CXXFLAGS_DEBUG="$(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)"
-export QMAKE_LFLAGS_RELEASE="$(shell dpkg-buildflags --get LDFLAGS)"
-export QMAKE_LFLAGS_DEBUG="$(shell dpkg-buildflags --get LDFLAGS)"
 
 %:
-	dh $@ --sourcedirectory=src
-
-override_dh_auto_install:
-	dh_auto_install --destdir=debian/tmp -- INSTALL_ROOT=$${PWD}/debian/tmp
+	dh $@
