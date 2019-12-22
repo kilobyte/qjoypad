@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: qjoypad
-Source: <http://qjoypad.sourceforge.net>
+Source: https://github.com/panzi/qjoypad
 
 Files: *
 Copyright: John Toman <virtuoussin13@users.sourceforge.net>
