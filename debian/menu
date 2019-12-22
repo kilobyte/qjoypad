@@ -1,6 +1,0 @@
-?package(qjoypad):needs="X11" \
-  section="Games/Tools" \
-  title="QJoyPad" \
-  longtitle="Trigger keystrokes and mouse actions with gamepads/joysticks" \
-  icon="/usr/share/pixmaps/qjoypad.xpm" \
-  command="/usr/bin/qjoypad"
