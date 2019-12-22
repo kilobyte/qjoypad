@@ -10,7 +10,7 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-games/qjoypad.git
 Vcs-Git: http://anonscm.debian.org/git/pkg-games/qjoypad.git
 
 Package: qjoypad
-Architecture: any
+Architecture: linux-any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Program for mapping gamepad/joystick events to mouse/keyboard event
  QJoyPad takes input from a gamepad or joystick and translates it into
