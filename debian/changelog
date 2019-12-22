@@ -1,3 +1,15 @@
+qjoypad (4.3.1-1) unstable; urgency=medium
+
+  * Reintroduce the package.  Closes: #947180.
+  * New maintainer, thanks Jordan for your prior work!
+  * Switch to a new upstream.  Closes: #870122.
+  * QT 5.  Closes: #875137.
+  * Set arch to linux-any.  Closes: #863132.
+  * Drop the Debian menu, use upstream .desktop.
+  * Generally modernize the package.
+
+ -- Adam Borowski <kilobyte@angband.pl>  Sun, 22 Dec 2019 17:20:04 +0100
+
 qjoypad (4.1.0-2.1) unstable; urgency=medium
 
   * Non-maintainer upload.
