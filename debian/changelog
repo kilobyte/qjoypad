@@ -1,3 +1,10 @@
+qjoypad (4.3.1-2) unstable; urgency=medium
+
+  * Use https:// for the copyright format.
+  * Enable hardening.
+
+ -- Adam Borowski <kilobyte@angband.pl>  Fri, 10 Jan 2020 17:38:54 +0100
+
 qjoypad (4.3.1-1) unstable; urgency=medium
 
   * Reintroduce the package.  Closes: #947180.
