@@ -5,9 +5,9 @@ Source: https://github.com/panzi/qjoypad
 Files: *
 Copyright: John Toman <virtuoussin13@users.sourceforge.net>
            Nathan Gaylinn <wren42@users.sourceforge.net>
-	   2014-2019 Mathias Panzenböck <grosser.meister.morti@gmx.net>
-	   minor fixes by Maciej Latocha, hydrargyrum, Heimen Stoffels,
-	   Jesper Zedlitz, Orivej Desh, Rémi Verschelde, Sergio Livi, Subs
+           2014-2019 Mathias Panzenböck <grosser.meister.morti@gmx.net>
+           minor fixes by Maciej Latocha, hydrargyrum, Heimen Stoffels,
+           Jesper Zedlitz, Orivej Desh, Rémi Verschelde, Sergio Livi, Subs
 License: GPL-2.0
 
 Files: debian/*
