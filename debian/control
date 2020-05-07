@@ -10,7 +10,7 @@ Build-Depends: cmake,
                pkg-config,
                qtbase5-dev,
                qttools5-dev
-Standards-Version: 4.4.1
+Standards-Version: 4.5.0
 Rules-Requires-Root: no
 Homepage: https://github.com/panzi/qjoypad
 Vcs-Browser: https://github.com/kilobyte/qjoypad/tree/debian
